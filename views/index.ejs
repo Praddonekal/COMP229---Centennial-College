@@ -1,7 +1,9 @@
 
+    <!-- importing header and main navigation -->
     <%- include partials/header.ejs %>
     <%- include partials/main_nav.ejs %>
 
+    <!-- if statement to check which page is opened -->
     <% if (title == "Home") { %>
       <%- include partials/home.ejs %>
         <% } %>
@@ -15,6 +17,7 @@
           <%- include partials/services.ejs %>
             <% } %>
 
+    <!-- importing footer -->
     <%- include partials/footer.ejs %>
 
 
